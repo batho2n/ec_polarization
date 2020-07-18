@@ -9,7 +9,7 @@
 2. Install
 - Git clone
 ```sh
-$ git clone
+$ git clone https://github.com/batho2n/ec_polarization.git
 $ cd ec_polarization
 ```
 - Create virtual environment
