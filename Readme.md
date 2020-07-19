@@ -30,8 +30,14 @@ $ source venv/bin/activate
 ```
 
 3. Run program
+* Default image canvas max size is 800 x 800
 ```sh
 (venv) $ python ec_polarization.py
+```
+* If you want to change image canvas max size, enter size as input argument
+	* Ex) Max size 1024 x 1024
+```sh
+(venv) $ python ec_polarization.py 1024
 ```
 
 4. Caution.
