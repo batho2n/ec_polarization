@@ -7,7 +7,7 @@ init:
 
 venv/bin/activate:
 	test -d venv || virtualenv -p python3 venv
-	. venv/bin/activate && pip install PyQt5 numpy matplotlib
+	. venv/bin/activate && pip install -r requirements.txt 
 
 clean:
 	rm -fr venv

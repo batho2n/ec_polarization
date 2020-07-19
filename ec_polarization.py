@@ -309,4 +309,10 @@ def main():
     sys.exit(app.exec_())
 	
 if __name__ == '__main__':
+
+    if (len(sys.argv) == 2):
+        size = int(sys.argv[1])
+        WIDTH = size
+        HEIGHT = size
+
     main()

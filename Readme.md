@@ -2,9 +2,9 @@
 
 
 1. Requiremets
-* Python3.x
-* virtualenv
-* pip3
+	* Python3.x
+	* virtualenv
+	* pip3
 
 2. Install
 - Git clone
