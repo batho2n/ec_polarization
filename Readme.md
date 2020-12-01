@@ -40,6 +40,38 @@ $ source venv/bin/activate
 (venv) $ python ec_polarization.py 1024
 ```
 
+* To calculate Polarity Index and Rayleigh 
+	* Copy csv files to data path
+```sh
+(venv) $ ls data
+artery-1.csv avm.csv      test.csv
+```
+
+	* Generate file.scp file
+```sh
+(venv) $ ls data/* > file.scp
+(venv) $ cat file.scp
+data/artery-1.csv
+data/avm.csv
+data/test.csv
+```
+
+	* Run calc_index file
+```sh
+(venv) $ python calc_index.py file.scp
+FILE: data/artery-1.csv, Data #: 869
+PI:  0.779301315611742
+RAY: 6.30732516017992e-230
+
+FILE: data/avm.csv, Data #: 1355
+PI:  0.11524434119894715
+RAY: 1.5289418766307256e-08
+
+FILE: data/test.csv, Data #: 4
+PI:  0.596197015652498
+RAY: 0.25634877337973183
+```
+
 4. Caution.
 * You must deactivate virtualenv when you finish program.
 ```sh
