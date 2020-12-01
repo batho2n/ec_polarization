@@ -42,13 +42,13 @@ $ source venv/bin/activate
 
 * To calculate Polarity Index and Rayleigh 
 
-	a) Copy csv files to data path
+a) Copy csv files to data path
 ```sh
 (venv) $ ls data
 artery-1.csv avm.csv      test.csv
 ```
 
-	b) Generate file.scp file
+b) Generate file.scp file
 ```sh
 (venv) $ ls data/* > file.scp
 (venv) $ cat file.scp
@@ -57,7 +57,7 @@ data/avm.csv
 data/test.csv
 ```
 
-	c) Run calc_index file
+c) Run calc_index file
 ```sh
 (venv) $ python calc_index.py file.scp
 FILE: data/artery-1.csv, Data #: 869
