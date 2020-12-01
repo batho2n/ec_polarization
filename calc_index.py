@@ -52,6 +52,6 @@ if __name__ == '__main__':
 
         degree_np = np.array(degree_list)*u.deg
         result = rayleightest(degree_np)
-        print("RAY: {}". format(result.to_value()))
+        print("RAY: {}". format(result))
         print("")
 
