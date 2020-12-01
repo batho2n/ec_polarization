@@ -41,6 +41,7 @@ $ source venv/bin/activate
 ```
 
 * To calculate Polarity Index and Rayleigh 
+
 a) Copy csv files to data path
 ```sh
 (venv) $ ls data
